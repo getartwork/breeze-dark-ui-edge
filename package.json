@@ -1,0 +1,19 @@
+{
+  "name": "breeze-dark-ui-edge",
+  "theme": "ui",
+  "version": "0.0.0",
+  "description": "A dark UI theme for Atom. work perfectly with any dark syntax",
+  "keywords": [
+    "ui",
+    "theme",
+    "md",
+    "dynamic",
+    "adapt to syntax",
+    "neon design"
+  ],
+  "license": "MIT",
+  "repository": "https://github.com/jonayad/breeze-dark-ui-edge",
+  "engines": {
+    "atom": ">0.40.0"
+  }
+}

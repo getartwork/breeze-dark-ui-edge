@@ -1,0 +1,91 @@
+// Colors
+
+@text-color: #e7e7e7;
+@text-color-subtle: #41aec2;
+@text-color-highlight: #ffffff;
+@text-color-selected: @text-color-highlight;
+
+@text-color-info: #617e9c;
+@text-color-success: #338054;
+@text-color-warning: #ffcd99;
+@text-color-error: #a4a4a4;
+
+@text-color-ignored: @text-color-subtle;
+@text-color-added: @text-color-success;
+@text-color-renamed: @text-color-info;
+@text-color-modified: @text-color-warning;
+@text-color-removed: @text-color-error;
+
+@background-color-info: rgba(0, 152, 255, 0.78);
+@background-color-success: #17ca65;
+@background-color-warning: #ffaa2c;
+@background-color-error: #d62e2e;
+@background-color-highlight: rgba(255, 255, 255, 0.07);
+@background-color-selected: rgb(68,116,157);
+
+@app-background-color: rgb(16, 25, 34);
+
+@base-background-color: lighten(@tool-panel-background-color, 5%);
+@base-border-color: rgba(102, 102, 102, 1);
+
+@pane-item-background-color: @base-background-color;
+@pane-item-border-color: rgb(49, 54, 59);
+
+@input-background-color: rgba(68, 116, 157, 0.73);
+@input-border-color: @text-color-subtle;
+
+@tool-panel-background-color: rgb(16, 25, 34);
+@tool-panel-border-color: @base-border-color;
+
+@inset-panel-background-color: #161719;
+@inset-panel-border-color: @base-border-color;
+
+@panel-heading-background-color: rgb(16, 25, 34);
+@panel-heading-border-color: fadein(@base-border-color, 10%);
+
+@overlay-background-color: rgb(31, 32, 34);
+@overlay-border-color: @background-color-highlight;
+
+@button-background-color: lighten(@tree-view-background-color, 20%);
+@button-background-color-hover: lighten(@button-background-color, 10%);
+@button-background-color-selected: rgb(29, 41, 52);
+@button-border-color: @tab-border-color;
+
+@tab-bar-background-color: @tree-view-background-color;
+@tab-bar-border-color: darken(@tab-background-color-active, 80%);
+@tab-background-color: #78ffd6;
+@tab-background-color-active: rgba(1, 1, 1, 0.68);
+@tab-border-color: rgb(7, 185, 221);
+
+@tree-view-background-color:  rgb(16, 25, 34);
+@tree-view-border-color: @tool-panel-border-color;
+
+@scrollbar-background-color: #222425; // Needs to be opaque -> atom/atom/issues/4578
+@scrollbar-color: rgba(92, 92, 92, 0.5);
+
+@ui-site-color-1: @background-color-success; // green
+@ui-site-color-2: @background-color-info; // blue
+@ui-site-color-3: @background-color-warning; // orange
+@ui-site-color-4: #db2ff4; // purple
+@ui-site-color-5: #f5e11d; // yellow
+
+
+// Sizes
+
+@font-size: 11px;
+@input-font-size: 14px;
+
+@disclosure-arrow-size: 14px;
+
+@component-padding: 15px;
+@component-icon-padding: 5px;
+@component-icon-size: 16px;
+@component-line-height: 25px;
+@component-border-radius: 2px;
+
+@tab-height: 30px;
+
+
+// Other
+
+@font-family: 'Lucida Grande', 'Segoe UI', Ubuntu, Cantarell, sans-serif;
