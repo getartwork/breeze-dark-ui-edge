@@ -29,9 +29,9 @@ Edge version of Breeze-dark-ui theme
 
    **screen-02**
 
-   ![breeze-dark-ui + breeze-dark-syntax](https://github.com/jonayad/breeze-dark-ui-edge/blob/master/screenshoots/screen-01.png?raw=true "breeze-dark-syntax")
+   ![breeze-dark-ui + breeze-dark-syntax](https://github.com/jonayad/breeze-dark-ui-edge/blob/master/screenshoots/screen-02.png?raw=true "breeze-dark-syntax")
    > Breeze-dark-ui + [breeze-dark-syntax-syntax](https://atom.io/themes/breeze-dark-syntax)
 
    **screen-03**
-   ![breeze-dark-ui + breeze-dark-syntax](https://github.com/jonayad/breeze-dark-ui-edge/blob/master/screenshoots/screen-01.png?raw=true "breeze-dark-syntax")
+   ![breeze-dark-ui + breeze-dark-syntax](https://github.com/jonayad/breeze-dark-ui-edge/blob/master/screenshoots/screen-03.png?raw=true "breeze-dark-syntax")
    > Breeze-dark-ui + [breeze-dark-syntax-syntax](https://atom.io/themes/breeze-dark-syntax)
