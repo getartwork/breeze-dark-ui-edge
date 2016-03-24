@@ -17,7 +17,7 @@ Breeze-dark-ui-edge theme
    ```shell
     apm install breeze-light-syntax
    ```
-   But most of the other syntax theme works fine with (Breeze-Dark-Ui-Edge Theme)[https://atom.io/themes/breeze-dark-ui-edge]
+   But most of the other syntax theme works fine with Breeze-Dark-Ui-Edge Theme.
 
    **Breeze-Look**
    ![breeze-dark-ui + Searching breeze-themes](https://github.com/jonayad/breeze-dark-ui-edge/blob/master/screenshoots/screen-01.png?raw=true "breeze-themes")
