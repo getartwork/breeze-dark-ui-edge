@@ -4,16 +4,16 @@ Breeze-dark-ui-edge theme
 ==============
  A dark theme for your favorite [Atom](http://atom.io) text editor.
 
-   ### Install the theme
+### Install the theme
 
    ```shell
     apm install breeze-dark-ui-edge
    ```
-   ### With [breeze-dark-syntax](https://atom.io/themes/breeze-dark-syntax)
+### With [breeze-dark-syntax](https://atom.io/themes/breeze-dark-syntax)
    ```shell
     apm install breeze-dark-syntax
    ```
-   ### With  [breeze-light-syntax](https://atom.io/themes/breeze-light-syntax)
+### With  [breeze-light-syntax](https://atom.io/themes/breeze-light-syntax)
    ```shell
     apm install breeze-light-syntax
    ```
@@ -36,7 +36,7 @@ Breeze-dark-ui-edge theme
    > [Breeze-dark-ui](https://atom.io/themes/breeze-dark-ui-edge) + [breeze-light-syntax](https://atom.io/themes/breeze-light-syntax)
 
 
-   ## How To Contribute
+## How To Contribute
 
 If you wish to contribute to this project, you are very welcome to! Here are a few ways you can do so:
 
