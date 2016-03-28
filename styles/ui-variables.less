@@ -1,14 +1,45 @@
-// Colors
+// Edge Design Main Colors
 
-@text-color: #e7e7e7;
-@text-color-subtle: #41aec2;
-@text-color-highlight: #ffffff;
-@text-color-selected: @text-color-highlight;
+@edge-white:          #f9f9f9;
+@edge-black:          #060606;
+@edge-dark-red:       #f40a0a;
+@edge-red:            #ff2d1d;
+@edge-pink:           #dd2d69;
+@edge-purple:         #b22bc9;
+@edge-dark-purple:    #6237ad;
+@edge-indigo:         #4758b4;
+@edge-blue:           #42a7f7;
+@edge-light-blue:     #4bc7ff;
+@edge-cyan:           #07d3ed;
+@edge-light-cyan:     #60d4e3;
+@edge-teal:           #06887c;
+@edge-teal-light:     #5fe3d6;
+@edge-dark-green:     #4ac77f;
+@edge-green:          #308c33;
+@edge-light-green:    #62bb53;
+@edge-lime:           #cbdd19;
+@edge-yellow:         #f9e113;
+@edge-amber:          #cba10c;
+@edge-orange:         #FF9800;
+@edge-deep-orange:    #FF5722;
+@edge-brown:          #593f35;
+@edge-grey:           #7e7e7e;
+@edge-grey-light:     #8f8f8f;
+@edge-blue-grey:      #4b768b;
+@edge-dark-blue-grey: #345261;
+@edge-dark-mirage :   #121e29;
+@edge-mirage :        #101922;
+@edge-light-mirage :  #151f29;
 
-@text-color-info: #617e9c;
-@text-color-success: #338054;
-@text-color-warning: #ffcd99;
-@text-color-error: #a4a4a4;
+@text-color: @edge-white;
+@text-color-subtle: @edge-white;
+@text-color-highlight: @edge-light-cyan;
+@text-color-selected: @edge-black;
+
+@text-color-info: @edge-blue;
+@text-color-success: @edge-green;
+@text-color-warning: @edge-deep-orange;
+@text-color-error: @edge-red;
 
 @text-color-ignored: @text-color-subtle;
 @text-color-added: @text-color-success;
@@ -16,59 +47,59 @@
 @text-color-modified: @text-color-warning;
 @text-color-removed: @text-color-error;
 
-@background-color-info: rgba(0, 152, 255, 0.78);
-@background-color-success: #17ca65;
-@background-color-warning: #ffaa2c;
-@background-color-error: #d62e2e;
-@background-color-highlight: rgba(255, 255, 255, 0.07);
-@background-color-selected: rgb(68,116,157);
+@background-color-info: @text-color-info;
+@background-color-success: @edge-dark-green;
+@background-color-warning: @edge-yellow;
+@background-color-error: @edge-dark-red;
+@background-color-highlight: @edge-blue-grey;
+@background-color-selected: @edge-white;
+@b
 
-@app-background-color: rgb(16, 25, 34);
+@app-background-color: @edge-mirage;
 
-@base-background-color: lighten(@tool-panel-background-color, 5%);
-@base-border-color: rgba(102, 102, 102, 1);
+@base-background-color: lighten(@app-background-color, 7%);
+@base-border-color: lighten(@edge-light-blue, 18%);
 
 @pane-item-background-color: @base-background-color;
-@pane-item-border-color: rgb(49, 54, 59);
+@pane-item-border-color: #31363b;
 
 @input-background-color: rgba(68, 116, 157, 0.73);
 @input-border-color: @text-color-subtle;
 
-@tool-panel-background-color: rgb(16, 25, 34);
+@tool-panel-background-color: #101922;
 @tool-panel-border-color: @base-border-color;
 
 @inset-panel-background-color: #161719;
 @inset-panel-border-color: @base-border-color;
 
-@panel-heading-background-color: rgb(16, 25, 34);
+@panel-heading-background-color: #101922;
 @panel-heading-border-color: fadein(@base-border-color, 10%);
 
-@overlay-background-color: rgb(31, 32, 34);
+@overlay-background-color: #1f2022;
 @overlay-border-color: @background-color-highlight;
 
 @button-background-color: lighten(@tree-view-background-color, 20%);
 @button-background-color-hover: lighten(@button-background-color, 10%);
-@button-background-color-selected: rgb(29, 41, 52);
+@button-background-color-selected: #1d2934;
 @button-border-color: @tab-border-color;
 
 @tab-bar-background-color: @tree-view-background-color;
 @tab-bar-border-color: darken(@tab-background-color-active, 80%);
 @tab-background-color: #78ffd6;
-@tab-background-color-active: rgba(1, 1, 1, 0.68);
+@tab-background-color-active: #010101;
 @tab-border-color: rgb(7, 185, 221);
 
-@tree-view-background-color:  rgb(16, 25, 34);
+@tree-view-background-color:  #101922;
 @tree-view-border-color: @tool-panel-border-color;
 
-@scrollbar-background-color: #222425; // Needs to be opaque -> atom/atom/issues/4578
-@scrollbar-color: rgba(92, 92, 92, 0.5);
+@scrollbar-background-color: @tab-background-color;
+@scrollbar-color: @tab-border-color;
 
 @ui-site-color-1: @background-color-success; // green
 @ui-site-color-2: @background-color-info; // blue
 @ui-site-color-3: @background-color-warning; // orange
 @ui-site-color-4: #db2ff4; // purple
 @ui-site-color-5: #f5e11d; // yellow
-
 
 // Sizes
 
