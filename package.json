@@ -12,8 +12,31 @@
     "neon design"
   ],
   "license": "MIT",
-  "repository": "https://github.com/jonayad/breeze-dark-ui-edge",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonayad/breeze-dark-ui-edge.git"
+  },
   "engines": {
     "atom": ">0.40.0"
+  },
+  "readme": "\n\nBreeze-dark-ui-edge theme\n==============\n A dark theme for your favorite [Atom](http://atom.io) text editor.\n\n   ### Install the theme\n\n   ```shell\n    apm install breeze-dark-ui-edge\n   ```\n   ### With [breeze-dark-syntax](https://atom.io/themes/breeze-dark-syntax)\n   ```shell\n    apm install breeze-dark-syntax\n   ```\n   ### With  [breeze-light-syntax](https://atom.io/themes/breeze-light-syntax)\n   ```shell\n    apm install breeze-light-syntax\n   ```\n   But most of the other syntax theme works fine with Breeze-Dark-Ui-Edge Theme.\n\n   **Breeze-Look**\n   ![breeze-dark-ui + Searching breeze-themes](https://github.com/jonayad/breeze-dark-ui-edge/blob/master/screenshoots/screen-01.png?raw=true \"breeze-themes\")\n\n   **screen-choose-theme**\n   ![breeze-dark-ui + breege-dark-syntax](https://github.com/jonayad/breeze-dark-ui-edge/blob/master/screenshoots/choose-theme.png?raw=true \"breeze-theme & breeze-dark-syntax\")\n   > [Breeze-dark-ui](https://atom.io/themes/breeze-dark-ui-edge) + [breeze-dark-syntax](https://atom.io/themes/breeze-dark-syntax)\n\n   **With-Dark-Theme**\n\n   ![breeze-dark-ui + breeze-dark-syntax](https://github.com/jonayad/breeze-dark-ui-edge/blob/master/screenshoots/screen-02.png?raw=true \"breeze-dark-syntax\")\n   > [Breeze-dark-ui](https://atom.io/themes/breeze-dark-ui-edge) + [breeze-dark-syntax](https://atom.io/themes/breeze-dark-syntax)\n\n   **With-Light-Theme**\n   ![breeze-dark-ui + breeze-light-syntax](https://github.com/jonayad/breeze-dark-ui-edge/blob/master/screenshoots/screen-03.png?raw=true \"breeze-dark-syntax\")\n   > [Breeze-dark-ui](https://atom.io/themes/breeze-dark-ui-edge) + [breeze-light-syntax](https://atom.io/themes/breeze-light-syntax)\n",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/jonayad/breeze-dark-ui-edge/issues"
+  },
+  "homepage": "https://github.com/jonayad/breeze-dark-ui-edge#readme",
+  "_id": "breeze-dark-ui-edge@0.1.5",
+  "_shasum": "19aaa09d08b816a015fd12fe7f557a65de3c39e5",
+  "_resolved": "file:../d-116231-9635-12y1466/package.tgz",
+  "_from": "../d-116231-9635-12y1466/package.tgz",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
   }
 }
